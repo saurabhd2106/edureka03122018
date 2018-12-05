@@ -10,7 +10,7 @@ public class Variables {
 
 		System.out.println("First Number : " + firstNumber);
 
-		byte secondNumber = 78;
+		byte secondNumber = 85;
 
 		long thirdNumber = 74832554385l;
 
