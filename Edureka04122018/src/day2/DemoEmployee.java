@@ -5,15 +5,15 @@ public class DemoEmployee {
 	public static void main(String[] args) {
 		
 		//Declaring a variable
-		Employee saurabh;
+		Employee soru;
 		
 		//Instantiation and Initialization
-		saurabh = new Employee();
+		soru = new Employee();
 		
-		saurabh.salary = 70000;
-		saurabh.bonus = 8000;
+		soru.salary = 70000;
+		soru.bonus = 8000;
 		
-		saurabh.calculateSalary();
+		soru.calculateSalary();
 		
 
 		//-----------------------------------------
