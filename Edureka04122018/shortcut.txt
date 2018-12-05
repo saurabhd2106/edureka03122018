@@ -1,0 +1,6 @@
+
+	type syso + ctrl + spacebar + enter --> To print System.out.println()
+	
+	Alt + shift + X, J --> To execute as Java
+	
+	type main + ctrl + spacebar + enter -->To print main() method
