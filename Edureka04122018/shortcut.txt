@@ -4,3 +4,5 @@
 	Alt + shift + X, J --> To execute as Java
 	
 	type main + ctrl + spacebar + enter -->To print main() method
+	
+	Shift + ctrl + / --> comment multiple lines
