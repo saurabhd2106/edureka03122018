@@ -14,7 +14,7 @@ public class Variables {
 
 		long thirdNumber = 74832554385l;
 
-		int forthNumber = 7458934;
+		int forthNumber = 147258;
 		
 
 		boolean flag;
