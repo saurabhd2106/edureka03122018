@@ -8,6 +8,11 @@ public class DemoAmazon {
 		ap.invokeBrowser();
 		ap.searchProduct("Apple Watch", "Watches");
 
+		String nthProduct = ap.getNthProduct(7);
+		
+		System.out.println(nthProduct);
+		
+		ap.printAllProductsViaJavaScript(); 
 	}
 
 }
