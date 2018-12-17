@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99 Test Suite" parallel="tests">
+    <groups>
+        <run>
+            <include name="Sanity"></include>
+        </run>
+    </groups>
+	<test name="Chrome Browser Tests">
+	    <parameter name="browserType" value="chrome"></parameter>
+		<parameter name="userId" value="mngr166785"></parameter>
+		<parameter name="userPassword" value="sAsyhEh"></parameter>
+		<classes>
+			<class name="day11.Guru99Project" />
+		</classes>
+	</test> <!-- Basic Tests -->
+	
+	<test name="Edge Browser Tests">
+	    <parameter name="browserType" value="edge"></parameter>
+		<parameter name="userId" value="mngr166785"></parameter>
+		<parameter name="userPassword" value="sAsyhEh"></parameter>
+		<classes>
+			<class name="day11.Guru99Project" />
+		</classes>
+	</test>
+	
+	<test name="Firefox Browser Tests">
+	    <parameter name="browserType" value="firefox"></parameter>
+		<parameter name="userId" value="mngr166785"></parameter>
+		<parameter name="userPassword" value="sAsyhEh"></parameter>
+		<classes>
+			<class name="day11.Guru99Project" />
+		</classes>
+	</test>
+</suite> <!-- Guru99 Test Suite -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Class Execution suite">
+	<test name="Class test" parallel="classes">
+		<parameter name="browserType" value="chrome"></parameter>
+		<parameter name="userId" value="mngr166785"></parameter>
+		<parameter name="userPassword" value="sAsyhEh"></parameter>
+		<packages>
+			<package name="day11"></package>
+		</packages>
+	</test>
+</suite>
