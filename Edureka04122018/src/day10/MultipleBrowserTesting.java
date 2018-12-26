@@ -11,7 +11,7 @@ public class MultipleBrowserTesting {
 
 	WebDriver driver;
 
-	public void invokeBrowser(String browserType) {
+	public void invokeBrowser(String browserType) throws Exception{
 
 		if (browserType.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
@@ -29,7 +29,7 @@ public class MultipleBrowserTesting {
 
 			driver = new EdgeDriver();
 		} else {
-			System.out.println("Invalid Browser type : " + browserType);
+			throw new Exception("Invalid Browser type : " + browserType);
 		}
 		
 		driver.manage().window().maximize();

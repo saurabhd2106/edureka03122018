@@ -50,7 +50,6 @@ public class Guru99Project {
 
 		driver.get("http://demo.guru99.com/v4");
 
-
 	}
 	
 	@AfterClass(alwaysRun=true)
@@ -60,7 +59,7 @@ public class Guru99Project {
 	
 	@Test(priority=0)
 	public void verifyTitleOfThePage(){
-		String expectedTitle = "Guru99 Bank Home Page 1";
+		String expectedTitle = "Guru99 Bank Home Page";
 		String actualTitle = driver.getTitle();
 		
 		Assert.assertEquals(actualTitle, expectedTitle);
